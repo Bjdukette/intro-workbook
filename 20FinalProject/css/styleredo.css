@@ -1,0 +1,17 @@
+* {
+  border: 2px solid red;
+}
+.subsection {
+  height: 250px;
+}
+.hero-image, .hero-text {
+  border: 1px solid blue;
+  height: inherit;
+}
+.criteria {
+  height: 250px;
+}
+.criteria-image, .criteria-text {
+  border: 1px solid green;
+  height: inherit;
+}

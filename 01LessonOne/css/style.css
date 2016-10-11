@@ -1,0 +1,126 @@
+.clear-fix:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+body {
+    color: white;
+}
+body h1 {
+    font-size: 70px;
+}
+.header {
+    text-align: center;
+    padding-top: 200px;
+    background-color: #2bcdc0;
+    padding-bottom: 200px;
+}
+.main {
+    background-color: black;
+    margin: 0 auto;
+    margin-align: center;
+    height: 800px;
+    width: 100%;
+}
+.box {
+    float: left;
+    height: 800px;
+    width: 30%;
+}
+.container {
+    margin-top: 100px;
+    height: 150px;
+    margin-right: 10px;
+    margin-left: 60px;
+    text-align: center
+}
+.container h1 {
+    font-size: 65px;
+}
+.blue {
+    margin-top: 100px;
+    text-align: center;
+    background-color: #33a8dd;
+    height: 50px;
+    width: 50%;
+    margin-left: 160px;
+}
+.orange {
+    margin-top: 100px;
+    text-align: center;
+    background-color: #f46731;
+    height: 50px;
+    width: 50%;
+    margin-right: 90px;
+    margin-left: 155px;
+}
+.aqua {
+    margin-top: 100px;
+    text-align: center;
+    background-color: #2bcdc0;
+    height: 50px;
+    width: 50%;
+    margin-right: 90px;
+    margin-left: 160px;
+}
+p {
+    font-size: 35px;
+    text-align: center;
+}
+
+/*Below this is for phone*/
+
+@media (max-width: 768px) {
+    .header {
+        background-color: #33a8dd;
+        padding: 0;
+        border: 0;
+        color: white;
+        height: 700px;
+        text-align: center;
+    }
+    body {
+        color: black;
+    }
+    .main {
+        background-color: white;
+        margin: 0 auto;
+        margin-align: center;
+        color: black;
+    }
+    .box {
+        width: 100%;
+        background-color: #F7F5F6;
+        text-align: center;
+    }
+    .container h1 {
+        font-size: 65px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .section {
+        background-color: grey;
+    }
+    .blue {
+        background-color: #33a8dd;
+        height: 50px;
+        width: 50%;
+        margin-left: 100px;
+    }
+    .orange {
+        background-color: #f46731;
+        height: 50px;
+        width: 50%;
+        margin-left: 100px;
+    }
+    .aqua {
+        background-color: #2bcdc0;
+        height: 50px;
+        width: 50%;
+        margin-left: 100px;
+    }
+    p {
+        font-size: 30px;
+        text-align: center;
+    }
+}
